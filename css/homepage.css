@@ -1,0 +1,50 @@
+.black-color{
+    color: black;
+}
+
+nav h2{
+    color: #ffffff;
+
+}
+
+#header-img{
+    /*color: #ffffff;*/
+    height: 400px;
+    background-image: url(../img/header.jpg);
+    filter: brightness(0.2);
+}
+
+header{
+    text-align: center;
+    margin: 40px;
+}
+
+header h1, h2{
+    color: #ffffff;
+}
+
+#white-logo{
+    height: 56px;
+}
+
+#articles{
+    height: 120px;
+    text-align: center;
+}
+
+.ozwald-font{
+    font-family: 'Ozwald';
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    border-bottom: solid 2px gray;
+}
+
+h1, h2, h3{
+    font-family: 'Courgette Regular';
+}
