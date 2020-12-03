@@ -7,17 +7,19 @@
 }
 
 #header-img{
-    height: 424px;
+    height: 400px;
     background-image: url(../img/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /*filter: brightness(0.2);*/
+}
+nav a{
+    color: #ffffff;
 
 }
-
 #dark{
     background: rgba(0, 0, 0, 0.7);
-    height: 424px;
+    height: 400px;
 }
 
 header{
@@ -32,7 +34,7 @@ header{
 #articles{
     height: 64px;
     text-align: center;
-    margin-top: 56px;
+    margin-top: 16px;
 }
 
 .courgette-font{
@@ -44,19 +46,42 @@ header{
 }
 
 nav{
-    display: flex;
+    border-bottom: solid 0.5px gray;
+    /*display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: baseline;
-    border-bottom: solid 1px gray;
-    height: 72px;
+
+    height: 72px;*/
 }
-nav div{
+/*nav div{
     margin-top:16px;
     margin-left: 16px;
-}
+}*/
 
-#articles-img1, #articles-img2, #articles-img3{
+#img-1{
+    background-image: url("../img/articles/suzette/suzette-small.jpg");
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 8px;
+}
+#img-2{
+    background-image: url("../img/articles/metro/metro-small.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 8px;
+}
+#img-3{
+    background-image: url("../img/articles/vitaly/vitaly-small.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 8px;
+}
+
+footer{
+    background-color: #000000;
+    margin-top: 32px;
 }
