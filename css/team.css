@@ -1,0 +1,21 @@
+#header-img{
+    background-image: url(../img/team/team.jpg);
+}
+
+img{
+    height: 104px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.team-img{
+    text-align: center;
+}
+
+h3, h5{
+    font-family: 'Courgette Regular';
+}
+
+p{
+    font-family: 'Oswald Light', sans-serif;
+}

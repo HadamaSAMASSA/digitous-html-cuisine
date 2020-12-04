@@ -8,7 +8,6 @@
 
 #header-img{
     height: 400px;
-    background-image: url(../img/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /*filter: brightness(0.2);*/
@@ -36,7 +35,7 @@ header{
 }
 
 .ozwald-font{
-    font-family: 'Ozwald ExtraLight', sans-serif;
+    font-family: 'Ozwald Light', sans-serif;
 }
 
 nav{
